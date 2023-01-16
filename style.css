@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.container{
+    background-image: url(./sg/night.webp);
+    background-size: cover;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+ 
+
+.form-box , .output-box{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    height: 35px;
+    width:250px ;
+     background-color:white;
+     border-radius: 5px;
+     border: none;     
+
+}
+
+button{
+    height: 30px;
+    width: 60px;
+    background-color: beige;
+    border-radius: 5px;
+    
+
+}
+
+
+.output-box h1{
+    font-size: 50px;
+    font-style: 20px;
+
+ 
+}
+.output-box h2{
+    font-size: 40px;
+    font-weight:20px ;
+}
+.output-box img{
+   height: 120px;
+   color: azure;  
+    
+}
+
+
+.container img{
+height: 100px;
+width: 100px; 
+background-color: aliceblue;
+margin-bottom: 10px;
+border-radius: 20px;   
+}
